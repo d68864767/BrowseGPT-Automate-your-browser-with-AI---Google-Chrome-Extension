@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Popup Styles */
+#popup {
+    width: 300px;
+    padding: 20px;
+}
+
+#popup h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#popup p {
+    font-size: 14px;
+    color: #666;
+}
+
+#popup ul {
+    padding-left: 20px;
+}
+
+/* Options Styles */
+#options {
+    width: 500px;
+    padding: 20px;
+}
+
+#options h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#options p {
+    font-size: 14px;
+    color: #666;
+}
+
+#optionsForm {
+    margin: 20px 0;
+}
+
+#optionsForm label {
+    display: block;
+    margin: 10px 0;
+}
+
+#optionsForm input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#optionsForm input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+#optionsForm input[type="submit"]:hover {
+    background-color: #45a049;
+}
